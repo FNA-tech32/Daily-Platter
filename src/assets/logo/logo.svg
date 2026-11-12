@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <linearGradient id="bunGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFA726"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    <linearGradient id="pattyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5D4037"/>
+      <stop offset="100%" stop-color="#3E2723"/>
+    </linearGradient>
+    <linearGradient id="cheeseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF176"/>
+      <stop offset="100%" stop-color="#FFB300"/>
+    </linearGradient>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="100%" stop-color="#F57C00"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Logo Icon Badge -->
+  <g transform="translate(6, 6)" filter="url(#shadow)">
+    <!-- Plate / Tray Base -->
+    <ellipse cx="34" cy="62" rx="33" ry="5.5" fill="#C5A059" opacity="0.4"/>
+    <ellipse cx="34" cy="60" rx="31" ry="4" fill="#E0E0E0"/>
+    <ellipse cx="34" cy="59" rx="27" ry="2.5" fill="#FFFFFF"/>
+
+    <!-- Bottom Bun -->
+    <path d="M 12 50 Q 34 54 56 50 Q 56 55 52 56 Q 34 58 16 56 Q 12 55 12 50 Z" fill="url(#bunGrad)" stroke="#B26A00" stroke-width="1"/>
+
+    <!-- Burger Patty -->
+    <rect x="10" y="44" width="48" height="6.5" rx="3.2" fill="url(#pattyGrad)"/>
+
+    <!-- Melted Cheese Corner -->
+    <polygon points="14,44 54,44 48,50 38,47 28,52 18,46" fill="url(#cheeseGrad)"/>
+
+    <!-- Crisp Lettuce Ruffles -->
+    <path d="M 8 41 Q 14 38 20 42 Q 26 38 34 42 Q 42 38 48 42 Q 54 38 60 41 Q 54 45 34 45 Q 14 45 8 41 Z" fill="#43A047"/>
+
+    <!-- Tomato Slice -->
+    <ellipse cx="34" cy="38" rx="22" ry="3.5" fill="#E53935"/>
+
+    <!-- Top Bun -->
+    <path d="M 10 37 C 10 16, 58 16, 58 37 Z" fill="url(#bunGrad)" stroke="#B26A00" stroke-width="1.2"/>
+    <!-- Bun highlight -->
+    <path d="M 16 28 C 22 20, 46 20, 52 28 C 42 22, 26 22, 16 28 Z" fill="#FFE082" opacity="0.6"/>
+
+    <!-- Sesame seeds -->
+    <ellipse cx="23" cy="24" rx="1.5" ry="0.9" fill="#FFF9C4" transform="rotate(-15 23 24)"/>
+    <ellipse cx="34" cy="20" rx="1.5" ry="0.9" fill="#FFF9C4"/>
+    <ellipse cx="44" cy="24" rx="1.5" ry="0.9" fill="#FFF9C4" transform="rotate(20 44 24)"/>
+    <ellipse cx="28" cy="28" rx="1.4" ry="0.8" fill="#FFF9C4" transform="rotate(10 28 28)"/>
+    <ellipse cx="40" cy="28" rx="1.4" ry="0.8" fill="#FFF9C4" transform="rotate(-10 40 28)"/>
+
+    <!-- Cloche Steam curves -->
+    <path d="M 28 12 Q 25 7 28 3" fill="none" stroke="#FFA726" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 34 11 Q 38 6 34 2" fill="none" stroke="#FFA726" stroke-width="1.8" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 40 12 Q 43 7 40 3" fill="none" stroke="#FFA726" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(82, 0)">
+    <!-- Word: DAILY -->
+    <text x="0" y="36" font-family="'Oswald', 'Impact', sans-serif" font-size="34" font-weight="800" fill="#E3000E" letter-spacing="2px">
+      DAILY
+    </text>
+
+    <!-- Word: PLATTER -->
+    <text x="0" y="66" font-family="'Lilita One', 'Oswald', sans-serif" font-size="33" font-weight="900" fill="url(#goldText)" stroke="#B71C1C" stroke-width="1" letter-spacing="1.5px">
+      PLATTER
+    </text>
+
+    <!-- Tagline: FRESH & DELICIOUS -->
+    <text x="120" y="34" font-family="'Oswald', 'Roboto', sans-serif" font-size="10" font-weight="700" fill="#6F5E4D" letter-spacing="2.5px">
+      EST. 2024
+    </text>
+    <rect x="120" y="38" width="60" height="2" fill="#E3000E" rx="1"/>
+    <text x="2" y="77" font-family="'Roboto', sans-serif" font-size="8.5" font-weight="600" fill="#757575" letter-spacing="3.5px">
+      FRESH • FAST • GOURMET
+    </text>
+  </g>
+</svg>
+
